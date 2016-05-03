@@ -16,4 +16,20 @@
         android:textColor="#ff020201"
         android:textSize="18sp"
         android:fontFamily="monospace"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:background="#000000"
+        android:id="@+id/textView4"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 </RelativeLayout>

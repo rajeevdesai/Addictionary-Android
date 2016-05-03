@@ -2,32 +2,60 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\pre-dexed\debug\classes-b610c74c6b871e175d0414559affd368fb76f1bf.jar" />
+        revision="23.0.1"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-1a0b19a51b7d0a70a1edec8e76ffe7ebb586e8c7.jar" />
     </item>
     <item
-        jar="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f1ad565418020666c5c7b290fa4c9ef1b7a2c6a4.jar" />
+        revision="23.0.1"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-ae3fa5fd1589dedaaf95dd01673f0efea601caf9.jar" />
     </item>
     <item
-        jar="C:\Users\Rajeev\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-0f573cbe20ef380343b2b65d862b275f8ad0b2f2.jar" />
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-85ff2150e26e1d9ec1397394cf69a584bbed0136.jar" />
     </item>
     <item
-        jar="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Rajeev\AndroidStudioProjects\ListView_alternate\app\build\intermediates\pre-dexed\debug\classes-4e386976e669db3cf1dd6300fa85f37dc410d582.jar" />
+        revision="23.0.1"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-cc754910f6ec66f94e954339659614bd747f8c12.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-008354659142885cb3b4e64a5d3aaf6ab2c5dc3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\CYBERZEUS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-b8741fb0f183a7f0c6883f114fd5eb0b38a83c4c.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-85ff2150e26e1d9ec1397394cf69a584bbed0136.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="D:\Android_Studio_Workspace\Addictionary-Android\app\build\intermediates\pre-dexed\debug\classes-840afb7c1e6cdce96290c76a5ecb0a919e4b1a02.jar" />
     </item>
 
 </items>

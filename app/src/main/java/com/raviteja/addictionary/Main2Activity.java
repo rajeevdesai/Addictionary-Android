@@ -3,8 +3,6 @@ package com.raviteja.addictionary;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.addictionary.addictionary.R;
-
 public class Main2Activity extends AppCompatActivity {
 
     @Override

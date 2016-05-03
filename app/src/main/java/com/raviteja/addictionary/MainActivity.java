@@ -1,6 +1,12 @@
 package com.raviteja.addictionary;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.location.LocationManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,12 +16,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.addictionary.addictionary.R;
-
 import java.util.ArrayList;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     private ListView listView;
     private ListAdapter adapter;
@@ -36,6 +40,36 @@ public class MainActivity extends ActionBarActivity {
         //setting adapter
         listView.setDivider(null);
         listView.setAdapter(adapter);
+
+        if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED) {
+
+            ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 5);
+        }
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults)
+    {
+        switch (requestCode) {
+            case 5:
+            {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
+                {
+                    displayToast("Permission granted!");
+                }
+                else
+                {
+                    displayToast("Sorry, App cannot work without this permission!");
+                    System.exit(0);
+                }
+                return;
+            }
+        }
+    }
+
+    public void displayToast(String message) {
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
     }
 
     @Override
